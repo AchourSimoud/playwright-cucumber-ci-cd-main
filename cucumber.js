@@ -5,7 +5,7 @@ module.exports = {
       "hooks/**/*.ts"               // Path to hooks
     ],
     format: [
-      "allure-cucumberjs",                   // Pour les rapports Allure
+      "allure-cucumberjs/reporter",      // Pour les rapports Allure
       "progress",                           // Affiche la progression dans le terminal
       "json:reports/cucumber-report.json",   // JSON report pour Allure
       "html:reports/cucumber-report.html"    // HTML report pour la lecture humaine
