@@ -19,7 +19,7 @@ When('I login with username {string} and password {string}', async function (use
 
 Then('I should be redirected to the dashboard', async function () {
     const isDashboardVisible = await loginPage.isDashboardVisible();
-    expect(isDashboardVisible).toBe(true); 
+    expect(isDashboardVisible).toContain("Myapp"); 
 });
 
 Then('I should see an error message', async function () {

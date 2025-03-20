@@ -13,7 +13,7 @@ class LoginPage {
         submitButton: () => this.page.locator('input[type="submit"]'),
         continueButton: () => this.page.locator('span:text("Continue")'),
         errorMessage: () => this.page.locator('.errornote'),
-        dashboardTitle: () => this.page.locator('#site-name'),
+        dashboardTitle: () => this.page.getByRole("link", {name: "Myapp"}),
     };
 
     async goto(url: string) {
@@ -36,8 +36,8 @@ class LoginPage {
         await this.elements.submitButton().click();
     }
 
-    async isDashboardVisible(): Promise<boolean> {
-        return await this.elements.dashboardTitle().isVisible();
+    async isDashboardVisible(): Promise<string | null> {
+        return await this.elements.dashboardTitle().textContent();
     }
 
     async getErrorMessage(): Promise<string | null> {

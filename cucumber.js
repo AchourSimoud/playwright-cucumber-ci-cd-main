@@ -12,8 +12,8 @@ module.exports = {
     ],
     tags: process.env.TAGS || "",  
     worldParameters: {
-      env1Url: "http://192.168.1.95:9091/admin/login/?next=/admin/",
-      env2Url: "http://192.168.1.95:9092/admin/login/?next=/admin/"
+      env1Url: "https://django-site-info-integration.onrender.com/admin",
+      env2Url: "https://django-site-info-integration.onrender.com/admin"
       //env1Url: "http://int.siteinfos.com/admin/login/?next=/admin/",
       //env2Url: "http://rec.siteinfos.com/admin/login/?next=/admin/"
     },

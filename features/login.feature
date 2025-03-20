@@ -1,6 +1,7 @@
 @tnr
+@login
 Feature: Login
-
+  @valid
   Scenario Outline: Successful login
     Given I open the login page for "<env>"
     When I login with username "<username>" and password "<password>"
