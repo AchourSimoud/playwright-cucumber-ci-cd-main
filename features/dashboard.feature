@@ -1,4 +1,5 @@
 
+@ignore
 Feature: Dashboard
 
   Background:

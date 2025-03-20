@@ -4,9 +4,604 @@
     "elements": [
       {
         "description": "",
-        "id": "dashboard;create-post-button",
+        "id": "login;successful-login",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1241526381
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the login page for \"env1\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 984789898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username \"testeur_integration\" and password \"testeur_qa\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1411400326
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223542534
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 203947548
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@env1",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;successful-login",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 684601339
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the login page for \"env1\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 502823822
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username \"testeur_integration\" and password \"testeur_qa_2\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 921865314
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 160320641
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 167798779
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@env1",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;successful-login",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 738613125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the login page for \"env2\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 640739258
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username \"testeur_recette\" and password \"testeur_qa_3\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1223798820
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150111656
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 183706943
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@env2",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;successful-login",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Successful login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 697280120
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the login page for \"env2\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 598350669
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I login with username \"testeur_recette\" and password \"testeur_qa_4\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1005864933
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143021256
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 208781368
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@env2",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;failed-login-with-wrong-credentials",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 29,
+        "name": "Failed login with wrong credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 716146929
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I open the login page for \"env1\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 803879454
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I login with username \"faux\" and password \"testeur_qa\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1079772421
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should see an error message",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145373657
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 161998016
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalids",
+            "line": 20
+          },
+          {
+            "name": "@env1",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;failed-login-with-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Failed login with wrong credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 640639798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I open the login page for \"env1\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 724060396
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I login with username \"testeur_integration\" and password \"faux\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1144804799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should see an error message",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148961220
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157626359
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalids",
+            "line": 20
+          },
+          {
+            "name": "@env1",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;failed-login-with-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Failed login with wrong credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 670623533
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I open the login page for \"env2\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 701496352
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I login with username \"faux\" and password \"testeur_qa_3\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1081259372
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should see an error message",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331304514
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 140848788
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalids",
+            "line": 20
+          },
+          {
+            "name": "@env2",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;failed-login-with-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Failed login with wrong credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 628806451
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I open the login page for \"env2\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1316477693
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I login with username \"testeur_recette\" and password \"faux\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 907175823
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should see an error message",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143075325
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 159129632
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalids",
+            "line": 20
+          },
+          {
+            "name": "@env2",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features/login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "post;create-post-button",
+        "keyword": "Scenario Outline",
+        "line": 17,
         "name": "Create post button",
         "steps": [
           {
@@ -14,17 +609,20 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1088262912
+              "duration": 784671039
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "I open the login page",
+            "name": "I open the login page for \"env1\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 539259466
             }
           },
           {
@@ -36,8 +634,8 @@
               "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1026003066
             }
           },
           {
@@ -49,47 +647,73 @@
               "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 173054095
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 11,
+            "line": 8,
             "name": "Je suis sur le dashboard",
             "match": {
               "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 46248596
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 12,
+            "line": 9,
             "name": "je clique sur le bouton add post",
             "match": {
               "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 344245107
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 13,
+            "line": 10,
             "name": "je suis redirige vers la page de creation de post",
             "match": {
               "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 1314869643
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "je creer un post avec \"super titre\" et \"super content\" et je clique sur le bouton save",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 742519893
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "je vois mon super post dans la liste des posts",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4118836
             }
           },
           {
@@ -97,24 +721,728 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 237493615
+              "duration": 176345363
             }
           }
         ],
         "tags": [
           {
-            "name": "@dashboard",
-            "line": 9
+            "name": "@postcreate",
+            "line": 3
+          },
+          {
+            "name": "@env1",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "post;create-post-button",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "Create post button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 658576731
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the login page for \"env2\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 610511360
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with username \"testeur_recette\" and password \"testeur_qa_3\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1068427993
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 134090788
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Je suis sur le dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97882278
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "je clique sur le bouton add post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 314781019
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "je suis redirige vers la page de creation de post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2083310586
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "je creer un post avec \"super titre\" et \"super content\" et je clique sur le bouton save",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 769923408
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "je vois mon super post dans la liste des posts",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1260514
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 175596472
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@postcreate",
+            "line": 3
+          },
+          {
+            "name": "@env2",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "post;create-post-button",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "Create post button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 614727547
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I open the login page for \"env1\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 496000436
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I login with username \"testeur_integration\" and password \"testeur_qa\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1509433693
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179795542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "Je suis sur le dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67359951
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "je clique sur le bouton add post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 300572587
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "je suis redirige vers la page de creation de post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1225070665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "je creer un post avec \"\" et \"super content\" et je clique sur le bouton save",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 854672633
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "un message derreur saffiche",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249233936
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 205080142
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post",
+            "line": 24
+          },
+          {
+            "name": "@env1",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "post;create-post-button",
+        "keyword": "Scenario Outline",
+        "line": 43,
+        "name": "Create post button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 659148984
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I open the login page for \"env2\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466459795
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "I login with username \"testeur_recette\" and password \"testeur_qa_3\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1151327522
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155661517
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "Je suis sur le dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51053545
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "je clique sur le bouton add post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 394960274
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "je suis redirige vers la page de creation de post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1231585489
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "je creer un post avec \"\" et \"super content\" et je clique sur le bouton save",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 728597510
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "un message derreur saffiche",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 275434570
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 177125504
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post",
+            "line": 24
+          },
+          {
+            "name": "@env2",
+            "line": 40
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "post;create-post-button",
+        "keyword": "Scenario Outline",
+        "line": 59,
+        "name": "Create post button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 658616955
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I open the login page for \"env1\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 399422901
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I login with username \"testeur_integration\" and password \"testeur_qa\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1209167452
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170973679
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "Je suis sur le dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81356824
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "je clique sur le bouton add post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308628518
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "je suis redirige vers la page de creation de post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2299725996
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "je creer un post avec \"titre\" et \"\" et je clique sur le bouton save",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 681826138
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "un message derreur saffiche",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211738698
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 241458501
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post",
+            "line": 45
+          },
+          {
+            "name": "@env1",
+            "line": 56
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "post;create-post-button",
+        "keyword": "Scenario Outline",
+        "line": 64,
+        "name": "Create post button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 710758018
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "I open the login page for \"env2\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 602729617
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I login with username \"testeur_recette\" and password \"testeur_qa_3\"",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1192153858
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "I should be redirected to the dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150627546
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "Je suis sur le dashboard",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47437791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "je clique sur le bouton add post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 326622874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "je suis redirige vers la page de creation de post",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2223762474
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "je creer un post avec \"titre\" et \"\" et je clique sur le bouton save",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 627014683
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "un message derreur saffiche",
+            "match": {
+              "location": "../../playwright-cucumber-ci-cd-main 1/playwright-cucumber-ci-cd-main/node_modules/@cucumber/cucumber/src/support_code_library_builder/get_definition_line_and_uri.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216205137
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 170066647
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@post",
+            "line": 45
+          },
+          {
+            "name": "@env2",
+            "line": 61
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "dashboard",
-    "line": 2,
+    "id": "post",
+    "line": 1,
     "keyword": "Feature",
-    "name": "Dashboard",
+    "name": "Post",
     "tags": [],
-    "uri": "features/dashboard.feature"
+    "uri": "features/post.feature"
   }
 ]
