@@ -1,5 +1,4 @@
 import { Before, After } from '@cucumber/cucumber';
-import { runInTestRunScope } from '@cucumber/cucumber/lib/runtime/scope';
 import { chromium, Browser, Page } from 'playwright';
 
 let browser: Browser;

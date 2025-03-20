@@ -1,3 +1,4 @@
+@tnr
 Feature: Login
 
   Scenario Outline: Successful login

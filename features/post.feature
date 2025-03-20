@@ -13,13 +13,15 @@ Feature: Post
 
     @env1
     Examples:
-      | env  | username            | password   |
-      | env1 | testeur_integration | testeur_qa |
+      | env  | username              | password     |
+      | env1 | testeur_integration   | testeur_qa   |
+      | env1 | testeur_integration_2 | testeur_qa_2 |
 
     @env2
     Examples:
-      | env  | username        | password     |
-      | env2 | testeur_recette | testeur_qa_3 |
+      | env  | username          | password     |
+      | env2 | testeur_recette   | testeur_qa_3 |
+      | env2 | testeur_recette_2 | testeur_qa_4 |
 
   @post
   Scenario Outline: Create post button
@@ -34,13 +36,15 @@ Feature: Post
 
     @env1
     Examples:
-      | env  | username            | password   |
-      | env1 | testeur_integration | testeur_qa |
+      | env  | username              | password     |
+      | env1 | testeur_integration   | testeur_qa   |
+      | env1 | testeur_integration_2 | testeur_qa_2 |
 
     @env2
     Examples:
-      | env  | username        | password     |
-      | env2 | testeur_recette | testeur_qa_3 |
+      | env  | username          | password     |
+      | env2 | testeur_recette   | testeur_qa_3 |
+      | env2 | testeur_recette_2 | testeur_qa_4 |
 
   @post
   Scenario Outline: Create post button
@@ -55,10 +59,12 @@ Feature: Post
 
     @env1
     Examples:
-      | env  | username            | password   |
-      | env1 | testeur_integration | testeur_qa |
+      | env  | username              | password     |
+      | env1 | testeur_integration   | testeur_qa   |
+      | env1 | testeur_integration_2 | testeur_qa_2 |
 
     @env2
     Examples:
-      | env  | username        | password     |
-      | env2 | testeur_recette | testeur_qa_3 |
+      | env  | username          | password     |
+      | env2 | testeur_recette   | testeur_qa_3 |
+      | env2 | testeur_recette_2 | testeur_qa_4 |
