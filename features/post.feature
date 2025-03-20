@@ -1,3 +1,4 @@
+@post
 Feature: Post
 
   @postcreate

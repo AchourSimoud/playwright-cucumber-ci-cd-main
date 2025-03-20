@@ -18,12 +18,6 @@ Then('je creer un post avec {string} et {string} et je clique sur le bouton save
     await createPost.createPost(titreAvecRandom, content);
 });
 
-// Then('je vois mon super post dans la liste des posts', async function () {
-//     dashboardPage = new DashboardPage(this.page); 
-//     const titre = PostUtils.getTitreAvecRandom(); 
-//     await dashboardPage.page.getByRole('cell', { name: titre }).isVisible;    
-// });
-
 Then('un message derreur saffiche', async function () {
     const errorMessage = await createPost.getErrorMessage();
     expect(errorMessage).toContain("Please correct");

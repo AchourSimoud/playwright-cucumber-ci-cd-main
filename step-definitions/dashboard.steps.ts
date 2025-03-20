@@ -4,6 +4,7 @@ import DashboardPage from '../pages/Dashboard';
 import CreatePost from '../pages/CreatePost';
 
 let dashboardPage: DashboardPage;
+let createPage: CreatePost;
 
 Given('Je suis sur le dashboard', async function () {
     dashboardPage = new DashboardPage(this.page); 
@@ -16,6 +17,6 @@ When('je clique sur le bouton add post', async function () {
 });
 
 Then('je suis redirige vers la page de creation de post', async function () {
-    const createPostHeader = await this.page.locator('h1:has-text("Add post")');
-    await expect(createPostHeader).toBeVisible();
+    createPage = new CreatePost(this.page);
+    await expect(await createPage.getPageIdentifier()).toContain("Save");
 });

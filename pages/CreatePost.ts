@@ -24,6 +24,10 @@ class CreatePost {
     async getErrorMessage(): Promise<string | null> {
         return await this.elements.errorMessage().textContent();
     }
+
+    async getPageIdentifier(): Promise<string | null>{
+        return await this.elements.SubmitButton().inputValue();
+    }
 }
 
 export default CreatePost;
