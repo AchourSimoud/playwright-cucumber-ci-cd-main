@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cucumber-js --tags 'not @ignore'",
-    "intergation": "TAGS='@env1 and not @ignore' npx cucumber-js --config cucumber.js",
-    "recette": "TAGS='@env2' npx cucumber-js --config cucumber.js", 
+    "intergation": "TAGS='@integration and not @ignore' npx cucumber-js --config cucumber.js",
+    "recette": "TAGS='@recette' npx cucumber-js --config cucumber.js", 
     "only": "npx cucumber-js --config cucumber.js --tags "
   },
     
