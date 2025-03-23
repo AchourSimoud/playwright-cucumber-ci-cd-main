@@ -15,7 +15,7 @@ Feature: Post
     @integration
     Examples:
       | env  | username              | password     | title     | content                |
-      | env1 | testeur_integration   | testeur_qa   | mon titre | le contenu de mon post |
+      | env1 | testeur_integration_2   | testeur_qa   | mon titre | le contenu de mon post |
       | env1 | testeur_integration_2 | testeur_qa_2 | mon titre | le contenu de mon post |
 
     @recette
