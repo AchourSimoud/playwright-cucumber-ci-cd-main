@@ -2,7 +2,7 @@
 Feature: Post
 
   @valid
-  Scenario Outline: Create post button
+  Scenario Outline: Create valid post
     Given I open the login page for "<env>"
     When I login with username "<username>" and password "<password>"
     Then I should be redirected to the dashboard
@@ -25,7 +25,7 @@ Feature: Post
       | env2 | testeur_recette_2 | testeur_qa_4 | mon titre | le contenu de mon post |
 
   @invalid
-  Scenario Outline: Create post button
+  Scenario Outline: Create invalid post
     Given I open the login page for "<env>"
     When I login with username "<username>" and password "<password>"
     Then I should be redirected to the dashboard

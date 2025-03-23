@@ -13,7 +13,6 @@ pipeline {
 
             steps {
                 script {
-                    //sh 'mkdir -p reports'
                     sh 'npm ci'
                     
                     if (params.ENVIRONMENT == 'all') {
